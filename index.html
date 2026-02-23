@@ -1,64 +1,9 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    
-    <title>EasyFlow Plumbing of Moncton. | 24/7 Emergency Plumber</title>
-    <meta name="description" content="Professional 24/7 emergency plumbing services in Moncton., Dieppe, and Riverview. Licensed experts for drain cleaning, water heaters, and burst pipes." />
-    <meta name="author" content="EasyFlow Plumbing of Moncton." />
+import * as CollapsiblePrimitive from "@radix-ui/react-collapsible";
 
-    <meta property="og:title" content="EasyFlow Plumbing of Moncton. | 24/7 Emergency Services" />
-    <meta property="og:description" content="Need a plumber now? EasyFlow provides 24/7 emergency repairs, drain cleaning, and water heater services in Greater Moncton." />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://easyflowplumbingofmoncton.online/" />
-    <meta property="og:image" content="https://easyflowplumbingofmoncton.online/images/easyflow-plumbing-moncton-storefront.jpg" />
+const Collapsible = CollapsiblePrimitive.Root;
 
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Plumber",
-      "name": "EasyFlow Plumbing of Moncton.",
-      "url": "https://easyflowplumbingofmoncton.online/",
-      "logo": "https://easyflowplumbingofmoncton.online/images/logo.png",
-      "image": "https://easyflowplumbingofmoncton.online/images/easyflow-plumbing-moncton-storefront.jpg",
-      "telephone": "+15064971959",
-      "priceRange": "$$",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "15 Roy Brown St",
-        "addressLocality": "Moncton",
-        "addressRegion": "NB",
-        "postalCode": "E1C 0M4",
-        "addressCountry": "CA"
-      },
-      "geo": {
-        "@type": "GeoCoordinates",
-        "latitude": 46.0911,
-        "longitude": -64.7930
-      },
-      "areaServed": [
-        { "@type": "City", "name": "Moncton" },
-        { "@type": "City", "name": "Dieppe" },
-        { "@type": "City", "name": "Riverview" }
-      ],
-      "openingHoursSpecification": [
-        {
-          "@type": "OpeningHoursSpecification",
-          "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
-          "opens": "00:00",
-          "closes": "23:59"
-        }
-      ],
-      "sameAs": [
-        "https://www.facebook.com/people/EasyFlow-Plumbing-of-Moncton/61561887413078/",
-        "https://www.youtube.com/@EasyFlowPlumbingOfMoncton"
-      ]
-    }
-    </script>
+const CollapsibleTrigger = CollapsiblePrimitive.CollapsibleTrigger;
 
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity":
+const CollapsibleContent = CollapsiblePrimitive.CollapsibleContent;
+
+export { Collapsible, CollapsibleTrigger, CollapsibleContent };
