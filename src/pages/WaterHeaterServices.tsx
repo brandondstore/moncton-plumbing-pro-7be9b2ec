@@ -40,7 +40,7 @@ const faqs = [
   { q: "How long does a water heater last?", a: "Traditional tank water heaters typically last 8-12 years in Moncton. Tankless models last 15-20 years. Hard water and sediment buildup in NB can shorten lifespan. Regular maintenance extends the life of your unit." },
   { q: "When should I replace vs. repair my water heater?", a: "If your heater is under 8 years old, repairs usually make sense. If it's over 10 years old or repairs exceed 50% of replacement cost, replacement is more cost-effective. We provide honest assessments to help you decide." },
   { q: "What are the benefits of a tankless water heater?", a: "Tankless heaters provide endless hot water, use 24-34% less energy, take up less space, and last longer. For larger families or homes with high hot water demand, they save significantly on energy bills over time." },
-  { q: "How much does water heater installation cost?", a: `Installation costs vary based on unit type (tank vs. tankless), your existing plumbing, and permits. Call us at ${BUSINESS.phone} for a free estimate. We provide transparent pricing before any work begins.` },
+  { q: "How much does water heater installation cost?", a: `Installation costs depend on unit type (tank vs. tankless), your existing plumbing, and permits. We provide accurate pricing based on what we witness during our onsite assessment. Call ${BUSINESS.phone} to schedule a service call, and we'll give you a quote that reflects the actual work needed.` },
   { q: "Can you install a water heater in an emergency?", a: `Yes. No hot water is a true emergency. Call ${BUSINESS.name} at ${BUSINESS.phone} anytime, day or night. We keep emergency units in stock and can often install same-day.` },
 ];
 

@@ -40,7 +40,7 @@ const faqs = [
   { q: "How do you detect hidden water leaks?", a: "We use acoustic listening devices, thermal imaging, and moisture meters to pinpoint leaks without tearing into walls. If a leak is inside the walls, we can often locate it within a few inches, minimizing damage." },
   { q: "What causes low water pressure in Moncton homes?", a: "Common causes include mineral buildup in lines, shut-off valve issues, leaks, or old corroded pipes. We diagnose the problem and recommend the best solution, whether it's cleaning aerators, replacing valves, or replumbing affected areas." },
   { q: "Is it better to repair or replace old pipes?", a: "If you have frequent leaks or rusty water, replacement is usually better long-term. Modern PEX or copper pipe lasts 50+ years. We evaluate your system and provide honest recommendations based on age, material, and failure patterns." },
-  { q: "How much does a plumbing fixture installation cost?", a: `Costs depend on the fixture type, your plumbing setup, and whether any modifications are needed. Faucet replacement typically runs $150-400, while toilet installation runs $200-500. Call ${BUSINESS.phone} for a free estimate.` },
+  { q: "How much does a plumbing fixture installation cost?", a: `Costs depend on the fixture type, your plumbing setup, and whether any modifications are needed. We provide the best pricing based on what we witness onsite during our service call. Call ${BUSINESS.phone} to schedule an appointment, and we'll give you an accurate quote on the spot.` },
   { q: "Do you offer financing for large plumbing projects?", a: "Yes. We work with customers to find solutions within their budget. Call to discuss options for larger projects like pipe replacement or sump pump installation." },
 ];
 
