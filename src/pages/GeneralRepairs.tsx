@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async";
 import { Phone, Search, PipetteIcon, ShieldAlert, Wrench } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { BUSINESS } from "@/lib/constants";
@@ -24,6 +25,12 @@ const services = [
 
 const GeneralRepairs = () => (
   <>
+    <Helmet>
+      <title>Plumbing Repairs & Fixture Installations Moncton, NB | EasyFlow Plumbing of Moncton.</title>
+      <meta name="description" content="Leak detection, pipe repair, sump pumps & fixture installations in Moncton, NB. EasyFlow Plumbing of Moncton. — Protect your home. Call (506) 497-1959." />
+      <link rel="canonical" href="https://easyflowplumbingofmoncton.online/plumbing-repairs-fixtures-moncton" />
+    </Helmet>
+
     <section className="relative overflow-hidden">
       <div className="absolute inset-0">
         <img src={repairImg} alt="Plumbing repair in Moncton" className="h-full w-full object-cover" />

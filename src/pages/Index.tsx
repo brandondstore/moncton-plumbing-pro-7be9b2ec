@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet-async";
 import { Phone, ShieldCheck, Clock, MapPin, Star, Droplets, Flame, Wrench } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { BUSINESS } from "@/lib/constants";
@@ -56,9 +57,30 @@ const testimonials = [
   },
 ];
 
+const faqs = [
+  {
+    q: "Running Toilet: Why won't it stop flushing?",
+    a: "A running toilet is usually caused by a faulty flapper valve or a worn-out fill valve. We can quickly diagnose the issue to save you money on your water bill.",
+  },
+  {
+    q: "Slow Drains: What is causing the backup?",
+    a: "Slow drains are typically caused by a buildup of hair, grease, or debris. Professional cleaning is the best way to clear the blockage and prevent a total backup.",
+  },
+  {
+    q: "Low Water Pressure: Why is my pressure dropping?",
+    a: "Low water pressure can be caused by shut-off valve issues, leaks, or mineral buildup. We find the source of the drop to restore your home's water flow.",
+  },
+];
+
 const Index = () => {
   return (
     <>
+      <Helmet>
+        <title>Plumber in Moncton, NB | 24/7 Emergency | EasyFlow Plumbing of Moncton.</title>
+        <meta name="description" content="EasyFlow Plumbing of Moncton. — Fast, reliable 24/7 plumbing in Moncton, NB. Drain cleaning, water heater repair & installation, and general plumbing services. Call (506) 497-1959." />
+        <link rel="canonical" href="https://easyflowplumbingofmoncton.online/" />
+      </Helmet>
+
       {/* Hero */}
       <section className="relative overflow-hidden">
         <div className="absolute inset-0">
@@ -153,6 +175,23 @@ const Index = () => {
                 </div>
                 <p className="mb-4 text-sm text-foreground/90">"{t.text}"</p>
                 <p className="text-sm font-semibold">— {t.name}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ */}
+      <section className="py-16">
+        <div className="container max-w-3xl">
+          <h2 className="mb-8 text-center text-2xl font-bold md:text-3xl">
+            Common Plumbing Questions in Moncton
+          </h2>
+          <div className="space-y-6">
+            {faqs.map((faq) => (
+              <div key={faq.q} className="rounded-lg border bg-card p-6">
+                <h3 className="mb-2 text-lg font-bold">{faq.q}</h3>
+                <p className="text-sm text-muted-foreground">{faq.a}</p>
               </div>
             ))}
           </div>

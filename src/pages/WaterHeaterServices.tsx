@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async";
 import { Phone, Flame, Zap, Thermometer } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { BUSINESS } from "@/lib/constants";
@@ -24,6 +25,12 @@ const services = [
 
 const WaterHeaterServices = () => (
   <>
+    <Helmet>
+      <title>Water Heater Repair & Installation Moncton, NB | EasyFlow Plumbing of Moncton.</title>
+      <meta name="description" content="Water heater repair, installation & tankless upgrades in Moncton, NB. EasyFlow Plumbing of Moncton. — Restore hot water fast. Call (506) 497-1959." />
+      <link rel="canonical" href="https://easyflowplumbingofmoncton.online/water-heater-repair-installation-moncton" />
+    </Helmet>
+
     <section className="relative overflow-hidden">
       <div className="absolute inset-0">
         <img src={waterHeaterImg} alt="Water heater installation in Moncton" className="h-full w-full object-cover" />

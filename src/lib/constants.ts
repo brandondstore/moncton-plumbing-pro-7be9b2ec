@@ -5,4 +5,16 @@ export const BUSINESS = {
   address: "15 Roy Brown St, Moncton, NB E1C 0M4",
   serviceArea: "Greater Moncton, New Brunswick",
   hours: "24/7 Emergency Dispatch",
+  email: "support@easyflowplumbingofmoncton.online",
+  url: "https://easyflowplumbingofmoncton.online",
+  socials: {
+    facebook: "https://www.facebook.com/people/EasyFlow-Plumbing-of-Moncton/61561887413078/",
+    youtube: "https://www.youtube.com/@EasyFlowPlumbingOfMoncton",
+    instagram: "https://www.instagram.com/easyflowplumbingofmoncton/",
+    yelp: "https://www.yelp.com/biz/easyflow-plumbing-of-moncton-moncton-3",
+    n49: "https://www.n49.com/biz/7075555/easyflow-plumbing-of-moncton.-nb-moncton-15-roy-brown-street/",
+    homestars: "https://www.homestars.com/profile/easyflow-plumbing-of-moncton",
+    trustedpros: "https://trustedpros.ca/company/easyflow-plumbing-of-moncton",
+    gmb: "https://share.google/KkpqvKh2YLkv0jBE0",
+  },
 } as const;
