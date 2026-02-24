@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async";
 import { Phone, AlertTriangle, Video, Waves } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { BUSINESS } from "@/lib/constants";
@@ -24,6 +25,12 @@ const services = [
 
 const DrainServices = () => (
   <>
+    <Helmet>
+      <title>Drain Cleaning & Sewer Services Moncton, NB | EasyFlow Plumbing of Moncton.</title>
+      <meta name="description" content="Emergency drain unclogging, sewer main line clearing & video camera pipe inspections in Moncton, NB. EasyFlow Plumbing of Moncton. — Call (506) 497-1959." />
+      <link rel="canonical" href="https://easyflowplumbingofmoncton.online/drain-cleaning-sewer-moncton" />
+    </Helmet>
+
     <section className="relative overflow-hidden">
       <div className="absolute inset-0">
         <img src={drainImg} alt="Drain cleaning service in Moncton" className="h-full w-full object-cover" />

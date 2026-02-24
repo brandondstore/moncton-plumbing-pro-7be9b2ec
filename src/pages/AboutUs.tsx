@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async";
 import { ShieldCheck, Heart, MapPin } from "lucide-react";
 import CallToAction from "@/components/CallToAction";
 import { BUSINESS } from "@/lib/constants";
@@ -5,6 +6,12 @@ import teamImg from "@/assets/team-photo.jpg";
 
 const AboutUs = () => (
   <>
+    <Helmet>
+      <title>About Us | EasyFlow Plumbing of Moncton. — Your Local Moncton Plumber</title>
+      <meta name="description" content="EasyFlow Plumbing of Moncton. — A dedicated Moncton, NB plumbing business committed to doing the job right the first time. Licensed, insured, and community-focused." />
+      <link rel="canonical" href="https://easyflowplumbingofmoncton.online/about-us" />
+    </Helmet>
+
     <section className="py-16">
       <div className="container">
         <h1 className="mb-6 text-3xl font-bold md:text-4xl">
@@ -41,7 +48,7 @@ const AboutUs = () => (
           <div className="overflow-hidden rounded-lg">
             <img
               src={teamImg}
-              alt="EasyFlow Plumbing team in Moncton, New Brunswick"
+              alt="EasyFlow Plumbing of Moncton. team in New Brunswick"
               className="h-full w-full object-cover"
               loading="lazy"
             />
