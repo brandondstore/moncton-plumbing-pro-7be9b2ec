@@ -59,24 +59,6 @@ const Index = () => {
         <meta name="description" content="EasyFlow Plumbing of Moncton. — Fast, reliable 24/7 plumbing in Moncton, NB. Drain cleaning, water heater repair & installation, and general plumbing services. Call (506) 497-1959." />
         <link rel="canonical" href="https://easyflowplumbingofmoncton.online/" />
 
-        {/* AggregateRating Schema */}
-        <script type="application/ld+json">
-        {JSON.stringify({
-          "@context": "https://schema.org",
-          "@type": "AggregateRating",
-          "ratingValue": "4.8",
-          "ratingCount": "47",
-          "bestRating": "5",
-          "worstRating": "1",
-          "itemReviewed": {
-            "@type": "Plumber",
-            "name": "EasyFlow Plumbing of Moncton.",
-            "url": "https://easyflowplumbingofmoncton.online",
-            "image": "https://easyflowplumbingofmoncton.online/images/logo.png"
-          }
-        })}
-        </script>
-
         {/* Breadcrumb Schema */}
         <script type="application/ld+json">
         {JSON.stringify({

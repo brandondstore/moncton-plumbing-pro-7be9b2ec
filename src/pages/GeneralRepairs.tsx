@@ -84,10 +84,6 @@ const GeneralRepairs = () => (
       </script>
 
       <script type="application/ld+json">
-      {JSON.stringify({ "@context": "https://schema.org", "@type": "AggregateRating", "ratingValue": "4.8", "ratingCount": "47", "bestRating": "5", "worstRating": "1", "itemReviewed": { "@type": "Service", "name": "Plumbing Repairs & Fixture Installation", "provider": { "@type": "Plumber", "name": "EasyFlow Plumbing of Moncton." } } })}
-      </script>
-
-      <script type="application/ld+json">
       {JSON.stringify({ "@context": "https://schema.org", "@type": "FAQPage", "mainEntity": faqs.map(f => ({ "@type": "Question", "name": f.q, "acceptedAnswer": { "@type": "Answer", "text": f.a } })) })}
       </script>
 

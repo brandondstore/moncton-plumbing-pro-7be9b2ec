@@ -113,19 +113,6 @@ const DrainServices = () => (
       })}
       </script>
 
-      {/* AggregateRating Schema */}
-      <script type="application/ld+json">
-      {JSON.stringify({
-        "@context": "https://schema.org",
-        "@type": "AggregateRating",
-        "ratingValue": "4.8",
-        "ratingCount": "47",
-        "bestRating": "5",
-        "worstRating": "1",
-        "itemReviewed": { "@type": "Service", "name": "Drain Cleaning & Sewer Services", "provider": { "@type": "Plumber", "name": "EasyFlow Plumbing of Moncton." } }
-      })}
-      </script>
-
       {/* FAQ Schema */}
       <script type="application/ld+json">
       {JSON.stringify({
