@@ -10,6 +10,20 @@ const AboutUs = () => (
       <title>About Us | EasyFlow Plumbing of Moncton. — Your Local Moncton Plumber</title>
       <meta name="description" content="EasyFlow Plumbing of Moncton. — A dedicated Moncton, NB plumbing business committed to doing the job right the first time. Licensed, insured, and community-focused." />
       <link rel="canonical" href="https://easyflowplumbingofmoncton.online/about-us" />
+
+      <meta property="og:title" content="About Us | EasyFlow Plumbing of Moncton." />
+      <meta property="og:description" content="A dedicated Moncton, NB plumbing business committed to doing the job right the first time." />
+      <meta property="og:url" content="https://easyflowplumbingofmoncton.online/about-us" />
+      <meta property="og:image" content="https://easyflowplumbingofmoncton.online/images/easyflow-plumbing-moncton-storefront.jpg" />
+      <meta property="og:type" content="website" />
+      <meta name="twitter:card" content="summary_large_image" />
+
+      <script type="application/ld+json">
+      {JSON.stringify({ "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://easyflowplumbingofmoncton.online/" },
+        { "@type": "ListItem", "position": 2, "name": "About Us", "item": "https://easyflowplumbingofmoncton.online/about-us" }
+      ] })}
+      </script>
     </Helmet>
 
     <section className="py-16">
