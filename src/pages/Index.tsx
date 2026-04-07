@@ -40,7 +40,7 @@ const services = [
 ];
 
 const testimonials = [
-  { name: "Sarah M.", text: "Our basement drain backed up at midnight. EasyFlow had someone here within the hour. Incredible service for the city of Moncton!", rating: 5 },
+  { name: "Sarah M.", text: "Our basement drain backed up at midnight. TrueFit had someone here within the hour. Incredible service for the city of Moncton!", rating: 5 },
   { name: "David K.", text: "Professional install of our new tankless water heater. They supplied everything and the heat efficiency has been amazing. Best plumbing companies in NB.", rating: 5 },
   { name: "Julie T.", text: "Fixed a stubborn leak that two other companies couldn't find. Fair price, honest work. Highly recommend this Moncton store of plumbing expertise.", rating: 5 },
 ];
@@ -55,8 +55,8 @@ const Index = () => {
   return (
     <>
       <Helmet>
-        <title>Plumber in Moncton, NB | 24/7 Emergency | EasyFlow Plumbing of Moncton.</title>
-        <meta name="description" content="EasyFlow Plumbing of Moncton. — Fast, reliable 24/7 plumbing in Moncton, NB. Drain cleaning, water heater repair & installation, and general plumbing services. Call (506) 497-1959." />
+        <title>Plumber in Moncton, NB | 24/7 Emergency | TrueFit Plumber of Moncton</title>
+        <meta name="description" content="TrueFit Plumber of Moncton — Fast, reliable 24/7 plumbing in Moncton, NB. Drain cleaning, water heater repair & installation, and general plumbing services. Call (506) 713-6739." />
         <link rel="canonical" href="https://easyflowplumbingofmoncton.online/" />
 
         {/* Breadcrumb Schema */}

@@ -7,11 +7,11 @@ import teamImg from "@/assets/team-photo.jpg";
 const AboutUs = () => (
   <>
     <Helmet>
-      <title>About Us | EasyFlow Plumbing of Moncton. — Your Local Moncton Plumber</title>
-      <meta name="description" content="EasyFlow Plumbing of Moncton. — A dedicated Moncton, NB plumbing business committed to doing the job right the first time. Licensed, insured, and community-focused." />
+      <title>About Us | TrueFit Plumber of Moncton — Your Local Moncton Plumber</title>
+      <meta name="description" content="TrueFit Plumber of Moncton — A dedicated Moncton, NB plumbing business committed to doing the job right the first time. Licensed, insured, and community-focused." />
       <link rel="canonical" href="https://easyflowplumbingofmoncton.online/about-us" />
 
-      <meta property="og:title" content="About Us | EasyFlow Plumbing of Moncton." />
+      <meta property="og:title" content="About Us | TrueFit Plumber of Moncton" />
       <meta property="og:description" content="A dedicated Moncton, NB plumbing business committed to doing the job right the first time." />
       <meta property="og:url" content="https://easyflowplumbingofmoncton.online/about-us" />
       <meta property="og:image" content="https://easyflowplumbingofmoncton.online/images/easyflow-plumbing-moncton-storefront.jpg" />
@@ -62,7 +62,7 @@ const AboutUs = () => (
           <div className="overflow-hidden rounded-lg">
             <img
               src={teamImg}
-              alt="EasyFlow Plumbing of Moncton. team in New Brunswick"
+              alt="TrueFit Plumber of Moncton team in New Brunswick"
               className="h-full w-full object-cover"
               loading="lazy"
             />
