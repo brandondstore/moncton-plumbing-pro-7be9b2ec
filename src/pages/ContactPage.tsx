@@ -1,6 +1,6 @@
 import { Helmet } from "react-helmet-async";
 import { useState, type FormEvent } from "react";
-import { Phone, MapPin, Clock, Mail } from "lucide-react";
+import { Phone, MapPin, Clock } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { BUSINESS } from "@/lib/constants";
 import { useToast } from "@/hooks/use-toast";
@@ -22,12 +22,12 @@ const ContactPage = () => {
   return (
     <>
       <Helmet>
-        <title>Contact a Plumber in Moncton, NB | EasyFlow Plumbing of Moncton.</title>
-        <meta name="description" content="Contact EasyFlow Plumbing of Moncton. for 24/7 plumbing service in Moncton, NB. Call (506) 497-1959 or fill out our quick form. 15 Roy Brown St, Moncton." />
+        <title>Contact a Plumber in Moncton, NB | TrueFit Plumber of Moncton</title>
+        <meta name="description" content="Contact TrueFit Plumber of Moncton for 24/7 plumbing service in Moncton, NB. Call (506) 713-6739 or fill out our quick form. 1966 Mountain Rd d, Moncton." />
         <link rel="canonical" href="https://easyflowplumbingofmoncton.online/contact-plumber-moncton" />
 
-        <meta property="og:title" content="Contact a Plumber in Moncton, NB | EasyFlow Plumbing of Moncton." />
-        <meta property="og:description" content="Contact EasyFlow Plumbing of Moncton. for 24/7 plumbing service. Call (506) 497-1959." />
+        <meta property="og:title" content="Contact a Plumber in Moncton, NB | TrueFit Plumber of Moncton" />
+        <meta property="og:description" content="Contact TrueFit Plumber of Moncton for 24/7 plumbing service. Call (506) 713-6739." />
         <meta property="og:url" content="https://easyflowplumbingofmoncton.online/contact-plumber-moncton" />
         <meta property="og:image" content="https://easyflowplumbingofmoncton.online/images/logo.png" />
         <meta property="og:type" content="website" />
@@ -39,8 +39,7 @@ const ContactPage = () => {
           "@context": "https://schema.org",
           "@type": "ContactPoint",
           "contactType": "Customer Service",
-          "telephone": "+1-506-497-1959",
-          "email": "support@easyflowplumbingofmoncton.online",
+          "telephone": "+1-506-713-6739",
           "areaServed": ["CA-NB", "Moncton", "Dieppe", "Riverview"],
           "availableLanguage": "en",
           "hoursAvailable": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "00:00", "closes": "23:59" }
@@ -89,14 +88,13 @@ const ContactPage = () => {
                 <h2 className="text-xl font-bold">{BUSINESS.name}</h2>
                 <div className="flex items-start gap-3 text-sm"><MapPin className="mt-0.5 h-5 w-5 shrink-0 text-accent" /><span>{BUSINESS.address}</span></div>
                 <div className="flex items-center gap-3 text-sm"><Phone className="h-5 w-5 shrink-0 text-accent" /><a href={BUSINESS.phoneTel} className="font-medium hover:underline">{BUSINESS.phone}</a></div>
-                <div className="flex items-center gap-3 text-sm"><Mail className="h-5 w-5 shrink-0 text-accent" /><a href={`mailto:${BUSINESS.email}`} className="font-medium hover:underline">{BUSINESS.email}</a></div>
                 <div className="flex items-center gap-3 text-sm"><Clock className="h-5 w-5 shrink-0 text-accent" /><span>{BUSINESS.hours}</span></div>
               </div>
 
               <div className="overflow-hidden rounded-lg border">
                 <iframe
-                  title="EasyFlow Plumbing of Moncton. Location"
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2793.1!2d-64.7782!3d46.0878!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2s15+Roy+Brown+St%2C+Moncton%2C+NB+E1C+0M4!5e0!3m2!1sen!2sca!4v1700000000000"
+                  title="TrueFit Plumber of Moncton Location"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2793.1!2d-64.7782!3d46.0878!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2s1966+Mountain+Rd+d%2C+Moncton%2C+NB+E1G+1A8!5e0!3m2!1sen!2sca!4v1700000000000"
                   width="100%" height="300" style={{ border: 0 }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade"
                 />
               </div>

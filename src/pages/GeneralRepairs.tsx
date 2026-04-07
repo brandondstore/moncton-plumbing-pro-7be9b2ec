@@ -47,12 +47,12 @@ const faqs = [
 const GeneralRepairs = () => (
   <>
     <Helmet>
-      <title>Plumbing Repairs & Fixture Installations Moncton, NB | EasyFlow Plumbing of Moncton.</title>
-      <meta name="description" content="Leak detection, pipe repair, sump pumps & fixture installations in Moncton, NB. EasyFlow Plumbing of Moncton. — Protect your home. Call (506) 497-1959." />
+      <title>Plumbing Repairs & Fixture Installations Moncton, NB | TrueFit Plumber of Moncton</title>
+      <meta name="description" content="Leak detection, pipe repair, sump pumps & fixture installations in Moncton, NB. TrueFit Plumber of Moncton — Protect your home. Call (506) 713-6739." />
       <link rel="canonical" href="https://easyflowplumbingofmoncton.online/plumbing-repairs-fixtures-moncton" />
 
-      <meta property="og:title" content="Plumbing Repairs & Fixture Installations Moncton, NB | EasyFlow Plumbing of Moncton." />
-      <meta property="og:description" content="Leak detection, pipe repair, sump pumps & fixture installations in Moncton, NB. Call (506) 497-1959." />
+      <meta property="og:title" content="Plumbing Repairs & Fixture Installations Moncton, NB | TrueFit Plumber of Moncton" />
+      <meta property="og:description" content="Leak detection, pipe repair, sump pumps & fixture installations in Moncton, NB. Call (506) 713-6739." />
       <meta property="og:url" content="https://easyflowplumbingofmoncton.online/plumbing-repairs-fixtures-moncton" />
       <meta property="og:image" content="https://easyflowplumbingofmoncton.online/images/general-repair.jpg" />
       <meta property="og:type" content="website" />
@@ -62,11 +62,11 @@ const GeneralRepairs = () => (
       {JSON.stringify({
         "@context": "https://schema.org", "@type": "LocalBusiness",
         "@id": "https://easyflowplumbingofmoncton.online/plumbing-repairs-fixtures-moncton",
-        "name": "EasyFlow Plumbing of Moncton.",
+        "name": "TrueFit Plumber of Moncton",
         "description": "Leak detection, pipe repair, and fixture installation services in Moncton, NB",
         "url": "https://easyflowplumbingofmoncton.online/plumbing-repairs-fixtures-moncton",
-        "telephone": "+1-506-497-1959", "email": "support@easyflowplumbingofmoncton.online",
-        "address": { "@type": "PostalAddress", "streetAddress": "15 Roy Brown St", "addressLocality": "Moncton", "addressRegion": "NB", "postalCode": "E1C 0M4", "addressCountry": "CA" },
+        "telephone": "+1-506-713-6739",
+        "address": { "@type": "PostalAddress", "streetAddress": "1966 Mountain Rd d", "addressLocality": "Moncton", "addressRegion": "NB", "postalCode": "E1G 1A8", "addressCountry": "CA" },
         "image": "https://easyflowplumbingofmoncton.online/images/general-repair.jpg",
         "serviceArea": [{ "@type": "City", "name": "Moncton" }, { "@type": "City", "name": "Dieppe" }, { "@type": "Town", "name": "Riverview" }, { "@type": "Town", "name": "Shediac" }],
         "hasOfferCatalog": { "@type": "OfferCatalog", "name": "Plumbing Repairs & Installations", "itemListElement": [
@@ -80,7 +80,7 @@ const GeneralRepairs = () => (
       </script>
 
       <script type="application/ld+json">
-      {JSON.stringify({ "@context": "https://schema.org", "@type": "Service", "name": "Plumbing Repairs & Fixture Installation", "description": "Professional plumbing repair and fixture installation services in Moncton, NB", "areaServed": [{ "@type": "City", "name": "Moncton" }, { "@type": "City", "name": "Dieppe" }, { "@type": "Town", "name": "Riverview" }], "provider": { "@type": "Plumber", "name": "EasyFlow Plumbing of Moncton.", "telephone": "+1-506-497-1959", "url": "https://easyflowplumbingofmoncton.online" }, "image": "https://easyflowplumbingofmoncton.online/images/general-repair.jpg" })}
+      {JSON.stringify({ "@context": "https://schema.org", "@type": "Service", "name": "Plumbing Repairs & Fixture Installation", "description": "Professional plumbing repair and fixture installation services in Moncton, NB", "areaServed": [{ "@type": "City", "name": "Moncton" }, { "@type": "City", "name": "Dieppe" }, { "@type": "Town", "name": "Riverview" }], "provider": { "@type": "Plumber", "name": "TrueFit Plumber of Moncton", "telephone": "+1-506-713-6739", "url": "https://easyflowplumbingofmoncton.online" }, "image": "https://easyflowplumbingofmoncton.online/images/general-repair.jpg" })}
       </script>
 
       <script type="application/ld+json">

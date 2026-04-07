@@ -56,12 +56,12 @@ const faqs = [
 const DrainServices = () => (
   <>
     <Helmet>
-      <title>Drain Cleaning & Sewer Services Moncton, NB | EasyFlow Plumbing of Moncton.</title>
-      <meta name="description" content="Emergency drain unclogging, sewer main line clearing & video camera pipe inspections in Moncton, NB. EasyFlow Plumbing of Moncton. — Call (506) 497-1959." />
+      <title>Drain Cleaning & Sewer Services Moncton, NB | TrueFit Plumber of Moncton</title>
+      <meta name="description" content="Emergency drain unclogging, sewer main line clearing & video camera pipe inspections in Moncton, NB. TrueFit Plumber of Moncton — Call (506) 713-6739." />
       <link rel="canonical" href="https://easyflowplumbingofmoncton.online/drain-cleaning-sewer-moncton" />
 
-      <meta property="og:title" content="Drain Cleaning & Sewer Services Moncton, NB | EasyFlow Plumbing of Moncton." />
-      <meta property="og:description" content="Emergency drain unclogging, sewer main line clearing & video camera pipe inspections in Moncton, NB. Call (506) 497-1959." />
+      <meta property="og:title" content="Drain Cleaning & Sewer Services Moncton, NB | TrueFit Plumber of Moncton" />
+      <meta property="og:description" content="Emergency drain unclogging, sewer main line clearing & video camera pipe inspections in Moncton, NB. Call (506) 713-6739." />
       <meta property="og:url" content="https://easyflowplumbingofmoncton.online/drain-cleaning-sewer-moncton" />
       <meta property="og:image" content="https://easyflowplumbingofmoncton.online/images/drain-service.jpg" />
       <meta property="og:type" content="website" />
@@ -73,12 +73,11 @@ const DrainServices = () => (
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
         "@id": "https://easyflowplumbingofmoncton.online/drain-cleaning-sewer-moncton",
-        "name": "EasyFlow Plumbing of Moncton.",
+        "name": "TrueFit Plumber of Moncton",
         "description": "Emergency drain unclogging, sewer main line clearing, and video camera pipe inspections in Moncton, NB",
         "url": "https://easyflowplumbingofmoncton.online/drain-cleaning-sewer-moncton",
-        "telephone": "+1-506-497-1959",
-        "email": "support@easyflowplumbingofmoncton.online",
-        "address": { "@type": "PostalAddress", "streetAddress": "15 Roy Brown St", "addressLocality": "Moncton", "addressRegion": "NB", "postalCode": "E1C 0M4", "addressCountry": "CA" },
+        "telephone": "+1-506-713-6739",
+        "address": { "@type": "PostalAddress", "streetAddress": "1966 Mountain Rd d", "addressLocality": "Moncton", "addressRegion": "NB", "postalCode": "E1G 1A8", "addressCountry": "CA" },
         "image": "https://easyflowplumbingofmoncton.online/images/drain-service.jpg",
         "serviceArea": [
           { "@type": "City", "name": "Moncton" },
@@ -107,7 +106,7 @@ const DrainServices = () => (
         "name": "Drain Cleaning & Sewer Services",
         "description": "Professional emergency drain unclogging and sewer line services in Moncton, NB, available 24/7",
         "areaServed": [{ "@type": "City", "name": "Moncton" }, { "@type": "City", "name": "Dieppe" }, { "@type": "Town", "name": "Riverview" }],
-        "provider": { "@type": "Plumber", "name": "EasyFlow Plumbing of Moncton.", "telephone": "+1-506-497-1959", "url": "https://easyflowplumbingofmoncton.online" },
+        "provider": { "@type": "Plumber", "name": "TrueFit Plumber of Moncton", "telephone": "+1-506-713-6739", "url": "https://easyflowplumbingofmoncton.online" },
         "offers": { "@type": "Offer", "availability": "https://schema.org/InStock", "priceCurrency": "CAD" },
         "image": "https://easyflowplumbingofmoncton.online/images/drain-service.jpg"
       })}

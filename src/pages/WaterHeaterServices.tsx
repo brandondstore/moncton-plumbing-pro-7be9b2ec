@@ -47,12 +47,12 @@ const faqs = [
 const WaterHeaterServices = () => (
   <>
     <Helmet>
-      <title>Water Heater Repair & Installation Moncton, NB | EasyFlow Plumbing of Moncton.</title>
-      <meta name="description" content="Water heater repair, installation & tankless upgrades in Moncton, NB. EasyFlow Plumbing of Moncton. — Restore hot water fast. Call (506) 497-1959." />
+      <title>Water Heater Repair & Installation Moncton, NB | TrueFit Plumber of Moncton</title>
+      <meta name="description" content="Water heater repair, installation & tankless upgrades in Moncton, NB. TrueFit Plumber of Moncton — Restore hot water fast. Call (506) 713-6739." />
       <link rel="canonical" href="https://easyflowplumbingofmoncton.online/water-heater-repair-installation-moncton" />
 
-      <meta property="og:title" content="Water Heater Repair & Installation Moncton, NB | EasyFlow Plumbing of Moncton." />
-      <meta property="og:description" content="Water heater repair, installation & tankless upgrades in Moncton, NB. Restore hot water fast. Call (506) 497-1959." />
+      <meta property="og:title" content="Water Heater Repair & Installation Moncton, NB | TrueFit Plumber of Moncton" />
+      <meta property="og:description" content="Water heater repair, installation & tankless upgrades in Moncton, NB. Restore hot water fast. Call (506) 713-6739." />
       <meta property="og:url" content="https://easyflowplumbingofmoncton.online/water-heater-repair-installation-moncton" />
       <meta property="og:image" content="https://easyflowplumbingofmoncton.online/images/water-heater.jpg" />
       <meta property="og:type" content="website" />
@@ -63,12 +63,11 @@ const WaterHeaterServices = () => (
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
         "@id": "https://easyflowplumbingofmoncton.online/water-heater-repair-installation-moncton",
-        "name": "EasyFlow Plumbing of Moncton.",
+        "name": "TrueFit Plumber of Moncton",
         "description": "Water heater repair, installation, and tankless upgrades in Moncton, NB",
         "url": "https://easyflowplumbingofmoncton.online/water-heater-repair-installation-moncton",
-        "telephone": "+1-506-497-1959",
-        "email": "support@easyflowplumbingofmoncton.online",
-        "address": { "@type": "PostalAddress", "streetAddress": "15 Roy Brown St", "addressLocality": "Moncton", "addressRegion": "NB", "postalCode": "E1C 0M4", "addressCountry": "CA" },
+        "telephone": "+1-506-713-6739",
+        "address": { "@type": "PostalAddress", "streetAddress": "1966 Mountain Rd d", "addressLocality": "Moncton", "addressRegion": "NB", "postalCode": "E1G 1A8", "addressCountry": "CA" },
         "image": "https://easyflowplumbingofmoncton.online/images/water-heater.jpg",
         "serviceArea": [{ "@type": "City", "name": "Moncton" }, { "@type": "City", "name": "Dieppe" }, { "@type": "Town", "name": "Riverview" }, { "@type": "Town", "name": "Shediac" }],
         "hasOfferCatalog": {
@@ -89,7 +88,7 @@ const WaterHeaterServices = () => (
         "name": "Water Heater Repair & Installation",
         "description": "Professional water heater repair and installation services in Moncton, NB, available 24/7",
         "areaServed": [{ "@type": "City", "name": "Moncton" }, { "@type": "City", "name": "Dieppe" }, { "@type": "Town", "name": "Riverview" }],
-        "provider": { "@type": "Plumber", "name": "EasyFlow Plumbing of Moncton.", "telephone": "+1-506-497-1959", "url": "https://easyflowplumbingofmoncton.online" },
+        "provider": { "@type": "Plumber", "name": "TrueFit Plumber of Moncton", "telephone": "+1-506-713-6739", "url": "https://easyflowplumbingofmoncton.online" },
         "image": "https://easyflowplumbingofmoncton.online/images/water-heater.jpg"
       })}
       </script>

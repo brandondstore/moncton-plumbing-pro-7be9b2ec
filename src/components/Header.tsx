@@ -20,7 +20,7 @@ const Header = () => {
     <header className="sticky top-0 z-50 border-b bg-card shadow-sm">
       <div className="container flex h-16 items-center justify-between">
         <Link to="/" className="text-lg font-bold text-primary">
-          EasyFlow Plumbing of Moncton.
+          TrueFit Plumber of Moncton
         </Link>
 
         {/* Desktop nav */}

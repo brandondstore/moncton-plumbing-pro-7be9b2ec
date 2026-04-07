@@ -1,20 +1,11 @@
 import { Link } from "react-router-dom";
-import { Phone, MapPin, Mail } from "lucide-react";
+import { Phone, MapPin } from "lucide-react";
 import { BUSINESS } from "@/lib/constants";
-
-const socialLinks = [
-  { label: "Facebook", href: BUSINESS.socials.facebook },
-  { label: "YouTube", href: BUSINESS.socials.youtube },
-  { label: "Instagram", href: BUSINESS.socials.instagram },
-  { label: "Yelp", href: BUSINESS.socials.yelp },
-  { label: "Homestars", href: BUSINESS.socials.homestars },
-  { label: "TrustedPros", href: BUSINESS.socials.trustedpros },
-];
 
 const Footer = () => (
   <footer className="border-t bg-primary text-primary-foreground">
     <div className="container py-12">
-      <div className="grid gap-8 md:grid-cols-4">
+      <div className="grid gap-8 md:grid-cols-3">
         {/* NAP */}
         <div>
           <h3 className="mb-3 text-lg font-bold">{BUSINESS.name}</h3>
@@ -26,12 +17,6 @@ const Footer = () => (
             <Phone className="h-4 w-4 shrink-0" />
             <a href={BUSINESS.phoneTel} className="hover:underline">
               {BUSINESS.phone}
-            </a>
-          </p>
-          <p className="mt-2 flex items-center gap-2 text-sm text-primary-foreground/80">
-            <Mail className="h-4 w-4 shrink-0" />
-            <a href={`mailto:${BUSINESS.email}`} className="hover:underline">
-              {BUSINESS.email}
             </a>
           </p>
           <p className="mt-2 text-sm text-primary-foreground/80">{BUSINESS.hours}</p>
@@ -48,18 +33,6 @@ const Footer = () => (
           </nav>
         </div>
 
-        {/* Social / Citations */}
-        <div>
-          <h3 className="mb-3 text-lg font-bold">Find Us Online</h3>
-          <nav className="flex flex-col gap-2 text-sm text-primary-foreground/80">
-            {socialLinks.map((s) => (
-              <a key={s.label} href={s.href} target="_blank" rel="noopener noreferrer" className="hover:underline">
-                {s.label}
-              </a>
-            ))}
-          </nav>
-        </div>
-
         {/* Service area */}
         <div>
           <h3 className="mb-3 text-lg font-bold">Service Area</h3>
@@ -70,7 +43,7 @@ const Footer = () => (
       </div>
 
       <div className="mt-8 border-t border-primary-foreground/20 pt-6 text-center text-xs text-primary-foreground/60">
-        © {new Date().getFullYear()} {BUSINESS.name} All rights reserved. Licensed &amp; Insured in New Brunswick.
+        © {new Date().getFullYear()} {BUSINESS.name}. All rights reserved. Licensed &amp; Insured in New Brunswick.
       </div>
     </div>
   </footer>
