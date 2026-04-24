@@ -9,6 +9,10 @@ import drainImg from "@/assets/drain-service.jpg";
 import waterHeaterImg from "@/assets/water-heater.jpg";
 import repairImg from "@/assets/general-repair.jpg";
 import accreditationBadge from "@/assets/canadian-contractor-badge.png";
+import iconGoogle from "@/assets/icon-google.png";
+import iconYelp from "@/assets/icon-yelp.png";
+import iconFacebook from "@/assets/icon-facebook.png";
+import iconHomestars from "@/assets/icon-homestars.png";
 
 const heroTrustBullets = [
   "60+ 5-star reviews from Moncton homeowners",
@@ -18,10 +22,10 @@ const heroTrustBullets = [
 ];
 
 const reviewBadges = [
-  { platform: "Google", rating: "5.0", count: "60+ Reviews" },
-  { platform: "Yelp", rating: "4.8", count: "32 Reviews" },
-  { platform: "Facebook", rating: "100%", count: "24 Recommended" },
-  { platform: "HomeStars", rating: "4.9", count: "41 Reviews" },
+  { platform: "Google", icon: iconGoogle, rating: "5.0", count: "60+ Reviews" },
+  { platform: "Yelp", icon: iconYelp, rating: "4.8", count: "32 Reviews" },
+  { platform: "Facebook", icon: iconFacebook, rating: "100%", count: "24 Recommended" },
+  { platform: "HomeStars", icon: iconHomestars, rating: "4.9", count: "41 Reviews" },
 ];
 
 const whyChoose = [
@@ -146,8 +150,8 @@ const Index = () => {
           <div className="flex flex-wrap items-center justify-center gap-6 md:gap-10">
             {reviewBadges.map((r) => (
               <div key={r.platform} className="flex items-center gap-3 rounded-lg border bg-background px-4 py-3 shadow-sm">
-                <div className="flex flex-col items-center">
-                  <span className="text-xs font-semibold uppercase tracking-wide text-muted-foreground">{r.platform}</span>
+                <img src={r.icon} alt={`${r.platform} reviews`} width={40} height={40} className="h-10 w-10 object-contain" loading="lazy" />
+                <div className="flex flex-col">
                   <div className="flex items-center gap-1">
                     <span className="text-lg font-bold text-foreground">{r.rating}</span>
                     <Star className="h-4 w-4 fill-accent text-accent" />
