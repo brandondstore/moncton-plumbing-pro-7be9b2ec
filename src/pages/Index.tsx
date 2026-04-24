@@ -9,9 +9,9 @@ import drainImg from "@/assets/drain-service.jpg";
 import waterHeaterImg from "@/assets/water-heater.jpg";
 import repairImg from "@/assets/general-repair.jpg";
 import accreditationBadge from "@/assets/canadian-contractor-badge.png";
-import iconGoogle from "@/assets/icon-google.png";
-import iconYelp from "@/assets/icon-yelp.png";
-import iconFacebook from "@/assets/icon-facebook.png";
+import iconGoogle from "@/assets/icon-google.svg";
+import iconYelp from "@/assets/icon-yelp.svg";
+import iconFacebook from "@/assets/icon-facebook.svg";
 import iconHomestars from "@/assets/icon-homestars.png";
 
 const heroTrustBullets = [
